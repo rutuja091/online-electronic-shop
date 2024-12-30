@@ -7,206 +7,7 @@
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
-        /* General Reset */
-        body, h1, p, ul, li, a {
-            margin: 0;
-            padding: 0;
-            list-style: none;
-            text-decoration: none;
-            box-sizing: border-box;
-        }
-
-        /* Header Styles */
-        .header {
-            background: linear-gradient(to right, #0047ab, #007bff);
-            color: white;
-            padding: 15px 0;
-            position: sticky;
-            top: 0;
-            z-index: 1000;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-        }
-
-        .header .container {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 20px;
-        }
-
-        .header .logo a {
-            font-size: 28px;
-            font-weight: bold;
-            color: white;
-            text-transform: uppercase;
-            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-        }
-
-        .header .navbar ul {
-            display: flex;
-            gap: 20px;
-        }
-
-        .header .navbar ul li a {
-            color: white;
-            font-size: 16px;
-            transition: color 0.3s;
-        }
-
-        .header .navbar ul li a:hover {
-            color: #ffcc00;
-        }
-
-        .header .header-icons a {
-            color: white;
-            font-size: 18px;
-            margin-left: 15px;
-            transition: color 0.3s;
-        }
-
-        .header .header-icons a:hover {
-            color: #ffcc00;
-        }
-
-        /* Footer Styles */
-        .footer {
-            background-color: #222;
-            color: #ddd;
-            padding: 40px 20px;
-            text-align: center;
-        }
-
-        .footer .container {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-            max-width: 1200px;
-            margin: 0 auto;
-            gap: 20px;
-        }
-
-        .footer-section {
-            flex: 1;
-            min-width: 200px;
-        }
-
-        .footer-section h4 {
-            font-size: 18px;
-            margin-bottom: 10px;
-            color: #ffcc00;
-        }
-
-        .footer-section p, .footer-section ul {
-            font-size: 14px;
-            line-height: 1.8;
-        }
-
-        .footer-section ul li a {
-            color: #ddd;
-            transition: color 0.3s;
-        }
-
-        .footer-section ul li a:hover {
-            color: #ffcc00;
-        }
-
-        .social-links a {
-            color: #ddd;
-            font-size: 18px;
-            margin: 0 10px;
-            transition: color 0.3s;
-        }
-
-        .social-links a:hover {
-            color: #ffcc00;
-        }
-
-        .footer-bottom {
-            margin-top: 20px;
-            font-size: 14px;
-            color: #aaa;
-            border-top: 1px solid #444;
-            padding-top: 10px;
-        }
-
-        /* Slider */
-      /* Slider */
-.slider {
-    position: relative;
-    width: calc(100% - 2px); /* Full width minus 1px margin on each side */
-    height: 400px; /* Fixed height for proper image display */
-    margin: 0 auto;
-    margin-left: 1px;
-    margin-right: 1px;
-    overflow: hidden;
-    border: 1px solid #ddd;
-}
-
-.slides {
-    display: flex;
-    transition: transform 0.5s ease-in-out;
-}
-
-.slide {
-    flex: 0 0 100%; /* Each slide takes full width */
-    position: relative;
-}
-
-.slide img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain; /* Ensure the full image is displayed without cropping */
-}
-
-.caption {
-    position: absolute;
-    bottom: 20%;
-    left: 50%;
-    transform: translateX(-50%);
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
-    color: white;
-    text-align: center;
-}
-
-.caption h2 {
-    font-size: 36px;
-    margin-bottom: 10px;
-}
-
-.caption p {
-    font-size: 18px;
-}
-
-/* Navigation Buttons */
-.prev, .next {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    border: none;
-    cursor: pointer;
-    padding: 10px 20px;
-    font-size: 18px;
-    z-index: 10;
-    border-radius: 50%;
-    outline: none;
-}
-
-.prev {
-    left: 20px;
-}
-
-.next {
-    right: 20px;
-}
-
-.prev:hover, .next:hover {
-    background-color: rgba(0, 0, 0, 0.8);
-}
-
+      
     </style>
 </head>
 <body>
@@ -241,10 +42,26 @@
               <div class="slide"><img src="Images/Index/slider-2.jpg" alt="Image 2"></div>
               <div class="slide"><img src="Images/Index/slider-3.jpg" alt="Image 3"></div>
               <div class="slide"><img src="Images/Index/slider-4.jpg" alt="Image 3"></div>
+              <div class="slide"><img src="Images/Index/slider-5.jpg" alt="Image 1"></div>
+              <div class="slide"><img src="Images/Index/slider-6.jpg" alt="Image 2"></div>
+              <div class="slide"><img src="Images/Index/slider-7.jpg" alt="Image 3"></div>
+              <div class="slide"><img src="Images/Index/slider-8.jpg" alt="Image 3"></div>
             </div>
             <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
             <button class="next" onclick="moveSlide(1)">&#10095;</button>
           </div>
+
+
+
+          <div class="container">
+            <h1 class="centered-heading">Best Selling Products</h1>
+        </div>
+
+
+
+
+
+
     </main>
 
     <!-- Footer -->

@@ -181,3 +181,12 @@ body {
   }
   
 /*end slider*/
+
+.container {
+    text-align: center;
+}
+
+.centered-heading {
+    font-size: 2em;
+    color: #333;
+}

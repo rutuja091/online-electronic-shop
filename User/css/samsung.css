@@ -124,6 +124,17 @@ body, h1, p, ul, li, a {
     padding-top: 10px;
 }
 
+/* body */
+
+.main-head{
+  justify-content: center;
+  text-align: center;
+
+  margin-bottom: 40px;
+  color: black;
+  font-size: 50px;
+}
+
 
 .cardcontainer{
 display: flex;
@@ -149,7 +160,7 @@ margin:50px;
     width: 100%;
     height: 200px;
     object-fit: cover;
-    margin-top: 8px;
+    margin-top: 10px;
   }
 
   .card-content {

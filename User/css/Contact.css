@@ -125,16 +125,15 @@ body, h1, p, ul, li, a {
 
 
   
-  .contact-card {
+.contact-card {
     max-width: 1200px;
-    margin: 20px auto;
+    margin: 10px auto; /* Reduced margin */
     border: 1px solid #ddd;
     border-radius: 10px;
     overflow: hidden;
     background-color: white;
-    height: 500px;
-  }
-  
+    height: 400px; /* Reduced height */
+}
   .image-overlay {
     position: relative;
   }
@@ -218,5 +217,61 @@ body, h1, p, ul, li, a {
   
   .option a:hover {
     text-decoration: underline;
+  }
+  
+  .feedback-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0; /* Adjusted spacing */
+}
+
+.feedback-form {
+    background-color: #f0f8ff;
+    border: 2px solid #0078d7;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+  .feedback-form h2 {
+    color: #0078d7; /* Blue heading */
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .feedback-form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .feedback-form input,
+  .feedback-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #0078d7; /* Blue border for input fields */
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .feedback-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0078d7; /* Blue background */
+    color: #ffffff; /* White text */
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .feedback-form button:hover {
+    background-color: #005bb5; /* Darker blue on hover */
   }
   

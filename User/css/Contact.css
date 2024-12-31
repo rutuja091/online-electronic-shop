@@ -122,3 +122,101 @@ body, h1, p, ul, li, a {
     padding-top: 10px;
 }
 
+
+
+  
+  .contact-card {
+    max-width: 1200px;
+    margin: 20px auto;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: white;
+    height: 500px;
+  }
+  
+  .image-overlay {
+    position: relative;
+  }
+  
+  .card-image {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  }
+  
+  .overlay-text h1 {
+    font-size: 2rem;
+    margin: 0;
+  }
+  
+  .overlay-text p {
+    font-size: 1.2rem;
+    margin: 5px 0 0;
+  }
+  .contact-options {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-top: 2px solid #ddd;
+  }
+  
+  .option {
+    flex: 1;
+    margin: 0 10px;
+    text-align: center;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .option:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+  }
+  
+  .option h3 {
+    background-color: #0078d7; /* Blue background for heading */
+    color: #ffffff; /* White font color */
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0 -20px 10px; /* Remove padding effect for proper alignment */
+    padding: 10px 0;
+    border-radius: 8px 8px 0 0; /* Rounded top corners for the heading */
+  }
+  
+  .option p {
+    margin: 5px 0;
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .option strong {
+    font-weight: bold;
+    color: #0078d7;
+  }
+  
+  .option a {
+    color: #0078d7;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .option a:hover {
+    text-decoration: underline;
+  }
+  

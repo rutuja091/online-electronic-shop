@@ -212,9 +212,10 @@ body {
   .card-container {
     display: flex;
     /* flex-wrap: wrap; */
-    gap: 60px;
+    gap: 80px;
     justify-content: center;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
+    
   }
   
   .card {
@@ -245,5 +246,79 @@ body {
     font-size: 18px;
     color: #333;
     padding: 10px 0;
+  }
+  
+
+
+
+
+
+  .mainhead {
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   /* Optional background color */
+  }
+   .centered-headings {
+    background:linear-gradient(to right, #0047ab, #007bff); /* Gray background */
+    padding: 20px 40px;
+    width: 100%;
+    text-align: center; /* Centers text within the div */
+    margin-bottom: 20px;
+  }
+  
+  .centered-headingsh1 {
+    margin: 0;
+    color: white;
+    font-size: 24px;
+  }
+
+
+
+
+
+
+
+  .cards-container {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .cards {
+    position: relative;
+    width: 600px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .cards img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .cards-text {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .cards-text h3 {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .cards-text p {
+    margin: 5px 0 0;
+    font-size: 14px;
   }
   

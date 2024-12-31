@@ -182,8 +182,10 @@ body {
   
 /*end slider*/
 
-.container {
+.title-container {
     text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .centered-heading {
@@ -209,17 +211,18 @@ body {
    */
   .card-container {
     display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
+    /* flex-wrap: wrap; */
+    gap: 80px;
     justify-content: center;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
+    
   }
   
   .card {
     background-color: #ffffff;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /*  border: 1px solid #ddd;
+   border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
     overflow: hidden;
     width: 250px;
     text-align: center;
@@ -228,18 +231,94 @@ body {
   
   .card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    /* box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); */
   }
   
   .card-image {
     width: 100%;
     height: 150px;
-    object-fit: cover;
+    /* object-fit: cover; */
   }
-  
+  .card-img{
+    height: 150px;
+  }
   .card-title {
     font-size: 18px;
     color: #333;
     padding: 10px 0;
+  }
+  
+
+
+
+
+
+  .mainhead {
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   /* Optional background color */
+  }
+   .centered-headings {
+    background:linear-gradient(to right, #0047ab, #007bff); /* Gray background */
+    padding: 20px 40px;
+    width: 100%;
+    text-align: center; /* Centers text within the div */
+    margin-bottom: 20px;
+  }
+  
+  .centered-headingsh1 {
+    margin: 0;
+    color: white;
+    font-size: 24px;
+  }
+
+
+
+
+
+
+
+  .cards-container {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .cards {
+    position: relative;
+    width: 600px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .cards img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .cards-text {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .cards-text h3 {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .cards-text p {
+    margin: 5px 0 0;
+    font-size: 14px;
   }
   

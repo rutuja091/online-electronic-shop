@@ -16,7 +16,7 @@ body, h1, p, ul, li, a {
     top: 0;
     z-index: 1000;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-    margin-bottom:30px;
+    margin-bottom:3px;
 }
 
 .header .container {
@@ -123,6 +123,35 @@ body, h1, p, ul, li, a {
     border-top: 1px solid #444;
     padding-top: 10px;
 }
+
+/* addimg */
+
+
+.image-banner {
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  margin: 0px;
+}
+
+.image-banner img {
+  width: 100%;
+  height: 400px;
+  display: block;
+}
+
+.caption {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1.5rem;
+}
+
 
 /* body */
 

@@ -1,3 +1,4 @@
+
 /* General Reset */
 body, h1, p, ul, li, a {
     margin: 0;
@@ -16,7 +17,7 @@ body, h1, p, ul, li, a {
     top: 0;
     z-index: 1000;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-    margin-bottom:30px;
+    margin-bottom:3px;
 }
 
 .header .container {
@@ -124,63 +125,65 @@ body, h1, p, ul, li, a {
     padding-top: 10px;
 }
 
+/* body */
 
-/* payment form css */
-
-
-
-.payment-form {
+.bill-container {
+    max-width: 600px;
+    margin: 20px auto;
     background: #fff;
     padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    width: 500px;
-    margin-left: 550px;
-    justify-content: center;
-    align-items: center;
-}
-
-.title{
-    font-size: 35px;
-    color: #1e90ff;   
-    margin-left: 150px;
-}
-
-.payment-form h2 {
-    margin-bottom: 20px;
-    font-size: 24px;
-    color: #1e90ff;
-}
-.form-group {
-    margin-bottom: 15px;
-}
-.form-group label {
-    display: block;
-    font-size: 14px;
-    color: #555;
-    margin-bottom: 5px;
-}
-.form-group input, .form-group select {
-    width: 100%;
-    padding: 8px;
-    font-size: 14px;
     border: 1px solid #ddd;
-    border-radius: 4px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
-.form-group input:focus, .form-group select:focus {
-    outline: none;
-    border-color: #007bff;
+
+.bill-header {
+    text-align: center;
+    margin-bottom: 20px;
 }
-.form-group button {
+
+.bill-header h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.bill-header p {
+    margin: 0;
+    color: #666;
+    font-size: 14px;
+}
+
+.bill-details {
+    margin-bottom: 20px;
+}
+
+.bill-details table {
     width: 100%;
-    padding: 10px;
-    font-size: 16px;
-    color: #fff;
-    background-color: #007bff;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
+    border-collapse: collapse;
 }
-.form-group button:hover {
-    background-color: #0056b3;
+
+.bill-details th, .bill-details td {
+    text-align: left;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.bill-details th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+.total {
+    text-align: right;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.ftext {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 12px;
+    color: #777;
 }

@@ -139,10 +139,17 @@ body, h1, p, ul, li, a {
     justify-content: center;
     align-items: center;
 }
+
+.title{
+    font-size: 35px;
+    color: #1e90ff;   
+    margin-left: 150px;
+}
+
 .payment-form h2 {
     margin-bottom: 20px;
     font-size: 24px;
-    color: #333;
+    color: #1e90ff;
 }
 .form-group {
     margin-bottom: 15px;

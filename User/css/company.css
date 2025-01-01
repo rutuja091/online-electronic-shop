@@ -177,8 +177,9 @@ margin:50px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     width: 340px;
+    height: 210px;
     transition: transform 0.3s ease;
-    margin-left: 110px;
+    margin-left: 100px;
   }
 
   .card:hover {

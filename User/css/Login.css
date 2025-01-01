@@ -131,9 +131,9 @@ main {
     background: #f4f4f9; /* Optional: A light background for better contrast */
 }
 
-.login-container {
-    /* margin-top: -10%; Adjust if the sticky header overlaps */
-}
+ /*.login-container {
+    margin-top: -10%; Adjust if the sticky header overlaps 
+}*/
 
 
 

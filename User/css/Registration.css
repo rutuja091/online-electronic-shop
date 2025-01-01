@@ -1,3 +1,5 @@
+
+
 /* General Reset */
 body, h1, p, ul, li, a {
     margin: 0;
@@ -123,6 +125,7 @@ body, h1, p, ul, li, a {
 }
 
 
+
 main {
     display: flex;
     justify-content: center;
@@ -131,71 +134,65 @@ main {
     background: #f4f4f9; /* Optional: A light background for better contrast */
 }
 
-.login-container {
-    /* margin-top: -10%; Adjust if the sticky header overlaps */
+.register-container {
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    padding: 20px;
+    text-align: center;
+    color: #333;
 }
 
+.register-container h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #1e90ff;
+}
 
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
 
-  .login-container {
-      background: #ffffff;
-      border-radius: 10px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-      width: 350px;
-      padding: 20px;
-      text-align: center;
-      color: #333;
-    }
+.form-group label {
+    font-size: 14px;
+    color: #555;
+}
 
-    .login-container h1 {
-      margin-bottom: 20px;
-      font-size: 24px;
-      color: #1e90ff;
-    }
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
 
-    .form-group {
-      margin-bottom: 15px;
-      text-align: left;
-    }
+.register-btn {
+    width: 100%;
+    background: #1e90ff;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
 
-    .form-group label {
-      font-size: 14px;
-      color: #555;
-    }
+.register-btn:hover {
+    background: #005fbb;
+}
 
-    .form-group input {
-      width: 100%;
-      padding: 10px;
-      margin-top: 5px;
-      border: 1px solid #ddd;
-      border-radius: 5px;
-      font-size: 16px;
-    }
+.login-link {
+    display: block;
+    margin-top: 10px;
+    font-size: 12px;
+    color: #1e90ff;
+    text-decoration: none;
+}
 
-    .login-btn {
-      width: 100%;
-      background: #1e90ff;
-      color: #fff;
-      border: none;
-      padding: 10px;
-      font-size: 16px;
-      border-radius: 5px;
-      cursor: pointer;
-      transition: background 0.3s ease;
-    }
-
-    .login-btn:hover {
-      background: #005fbb;
-    }
-
-    .forgot-password {
-      display: block;
-      margin-top: 10px;
-      font-size: 12px;
-      color: #1e90ff;
-      text-decoration: none;
-    }
-
-    .forgot-password:hover {
-      text-decoration: underline;
-    }
+.login-link:hover {
+    text-decoration: underline;
+}

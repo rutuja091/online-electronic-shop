@@ -177,6 +177,7 @@ body, h1, p, ul, li, a {
 .offer-card img {
     width: 100%;
     border-radius: 10px;
+    height: 400px;
 }
 
 /* Text Styles */
